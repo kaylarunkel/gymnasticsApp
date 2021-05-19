@@ -14,6 +14,13 @@
 		94744B07264F03F100F86CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94744B06264F03F100F86CB4 /* Preview Assets.xcassets */; };
 		94744B0A264F03F100F86CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94744B08264F03F100F86CB4 /* LaunchScreen.storyboard */; };
 		94744B15264F076D00F86CB4 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = 94744B14264F076D00F86CB4 /* LBTATools */; };
+		94A018CD2655521F00DFAF5A /* AddInfoToUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018CC2655521F00DFAF5A /* AddInfoToUpdateView.swift */; };
+		94A018CF2655531700DFAF5A /* UpdatesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018CE2655531700DFAF5A /* UpdatesRowView.swift */; };
+		94A018D1265553DF00DFAF5A /* DiffableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D0265553DF00DFAF5A /* DiffableTableViewController.swift */; };
+		94A018D32655547C00DFAF5A /* UpdateFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D22655547C00DFAF5A /* UpdateFormView.swift */; };
+		94A018D5265555D300DFAF5A /* UpdatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D4265555D300DFAF5A /* UpdatesViewModel.swift */; };
+		94A018D72655563800DFAF5A /* DiffableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D62655563800DFAF5A /* DiffableContainer.swift */; };
+		94A018D92655568200DFAF5A /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D82655568200DFAF5A /* Previews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		94744B06264F03F100F86CB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94744B09264F03F100F86CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94744B0B264F03F100F86CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A018CC2655521F00DFAF5A /* AddInfoToUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoToUpdateView.swift; sourceTree = "<group>"; };
+		94A018CE2655531700DFAF5A /* UpdatesRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesRowView.swift; sourceTree = "<group>"; };
+		94A018D0265553DF00DFAF5A /* DiffableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableTableViewController.swift; sourceTree = "<group>"; };
+		94A018D22655547C00DFAF5A /* UpdateFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateFormView.swift; sourceTree = "<group>"; };
+		94A018D4265555D300DFAF5A /* UpdatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesViewModel.swift; sourceTree = "<group>"; };
+		94A018D62655563800DFAF5A /* DiffableContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableContainer.swift; sourceTree = "<group>"; };
+		94A018D82655568200DFAF5A /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,13 @@
 				94744AFD264F03E500F86CB4 /* AppDelegate.swift */,
 				94744AFF264F03E500F86CB4 /* SceneDelegate.swift */,
 				94744B01264F03E500F86CB4 /* ContentView.swift */,
+				94A018D62655563800DFAF5A /* DiffableContainer.swift */,
+				94A018D4265555D300DFAF5A /* UpdatesViewModel.swift */,
+				94A018D22655547C00DFAF5A /* UpdateFormView.swift */,
+				94A018D0265553DF00DFAF5A /* DiffableTableViewController.swift */,
+				94A018CE2655531700DFAF5A /* UpdatesRowView.swift */,
+				94A018CC2655521F00DFAF5A /* AddInfoToUpdateView.swift */,
+				94A018D82655568200DFAF5A /* Previews.swift */,
 				94744B03264F03F100F86CB4 /* Assets.xcassets */,
 				94744B08264F03F100F86CB4 /* LaunchScreen.storyboard */,
 				94744B0B264F03F100F86CB4 /* Info.plist */,
@@ -155,8 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				94744AFE264F03E500F86CB4 /* AppDelegate.swift in Sources */,
+				94A018CF2655531700DFAF5A /* UpdatesRowView.swift in Sources */,
+				94A018D1265553DF00DFAF5A /* DiffableTableViewController.swift in Sources */,
+				94A018D5265555D300DFAF5A /* UpdatesViewModel.swift in Sources */,
 				94744B00264F03E500F86CB4 /* SceneDelegate.swift in Sources */,
+				94A018CD2655521F00DFAF5A /* AddInfoToUpdateView.swift in Sources */,
 				94744B02264F03E500F86CB4 /* ContentView.swift in Sources */,
+				94A018D32655547C00DFAF5A /* UpdateFormView.swift in Sources */,
+				94A018D92655568200DFAF5A /* Previews.swift in Sources */,
+				94A018D72655563800DFAF5A /* DiffableContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
