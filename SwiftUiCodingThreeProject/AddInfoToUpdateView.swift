@@ -21,6 +21,7 @@ struct AddInfoToUpdateView: View {
     @State private var beamScore = 8.0
     @State private var floorScore = 8.0
     
+    
     var body: some View {
         //Text("Hello, Second View!")
         /*Text(update)

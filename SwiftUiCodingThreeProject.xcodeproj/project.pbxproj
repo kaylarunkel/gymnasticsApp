@@ -21,6 +21,7 @@
 		94A018D5265555D300DFAF5A /* UpdatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D4265555D300DFAF5A /* UpdatesViewModel.swift */; };
 		94A018D72655563800DFAF5A /* DiffableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D62655563800DFAF5A /* DiffableContainer.swift */; };
 		94A018D92655568200DFAF5A /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018D82655568200DFAF5A /* Previews.swift */; };
+		94A018DB2655589100DFAF5A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A018DA2655589100DFAF5A /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		94A018D4265555D300DFAF5A /* UpdatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesViewModel.swift; sourceTree = "<group>"; };
 		94A018D62655563800DFAF5A /* DiffableContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableContainer.swift; sourceTree = "<group>"; };
 		94A018D82655568200DFAF5A /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		94A018DA2655589100DFAF5A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				94744AFD264F03E500F86CB4 /* AppDelegate.swift */,
 				94744AFF264F03E500F86CB4 /* SceneDelegate.swift */,
 				94744B01264F03E500F86CB4 /* ContentView.swift */,
+				94A018DA2655589100DFAF5A /* ImagePicker.swift */,
 				94A018D62655563800DFAF5A /* DiffableContainer.swift */,
 				94A018D4265555D300DFAF5A /* UpdatesViewModel.swift */,
 				94A018D22655547C00DFAF5A /* UpdateFormView.swift */,
@@ -182,6 +185,7 @@
 				94744B00264F03E500F86CB4 /* SceneDelegate.swift in Sources */,
 				94A018CD2655521F00DFAF5A /* AddInfoToUpdateView.swift in Sources */,
 				94744B02264F03E500F86CB4 /* ContentView.swift in Sources */,
+				94A018DB2655589100DFAF5A /* ImagePicker.swift in Sources */,
 				94A018D32655547C00DFAF5A /* UpdateFormView.swift in Sources */,
 				94A018D92655568200DFAF5A /* Previews.swift in Sources */,
 				94A018D72655563800DFAF5A /* DiffableContainer.swift in Sources */,
