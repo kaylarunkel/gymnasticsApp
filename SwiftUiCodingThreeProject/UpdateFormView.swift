@@ -17,6 +17,8 @@ struct UpdateFormView: View
     var dateFormatter: DateFormatter {
         let formatter = DateFormatter()
         formatter.dateStyle = .long
+        //formatter.dateFormat = "YY/MM/dd"
+        //formatter.string(from: selectedDate)
         return formatter
     }
     @State private var selectedDate = Date()
@@ -48,6 +50,7 @@ struct UpdateFormView: View
                 Button(action: {
                     //run a function or closure somehow
                     //let date = "\(self.selectedDate, formatter: dateFormatter)"
+                    //let stringDate = "\(self.selectedDate, formatter: self.dateFormatter)"
                     self.didAddUpdate(self.name, "\(self.selectedDate)", self.sectionType)
                 }, label:
                     {

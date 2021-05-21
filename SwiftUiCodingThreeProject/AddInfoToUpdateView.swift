@@ -15,7 +15,7 @@ struct AddInfoToUpdateView: View {
     @State private var why = ""
     @State private var event = ""
     @State private var competition2 = false
-    @State private var practice = false
+    @State private var practice2 = false
     @State private var vaultScore = 8.0
     @State private var barScore = 8.0
     @State private var beamScore = 8.0
@@ -32,9 +32,8 @@ struct AddInfoToUpdateView: View {
         NavigationView {
             Form {
                 Toggle(isOn: $competition2, label: {Text("Competition?")})
-                Toggle(isOn: $practice, label: {Text("Practice?")})
+                Toggle(isOn: $practice2, label: {Text("Practice?")})
                 Section(header: Text("Practice Details")){
-                    
                     
                     
                     if self.isPractice(){
@@ -79,7 +78,7 @@ struct AddInfoToUpdateView: View {
         return true
     }
     private func isPractice() -> Bool {
-        if !practice {
+        if !practice2 {
             return false
         }
         return true
