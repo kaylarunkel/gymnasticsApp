@@ -63,9 +63,6 @@ struct UpdateFormView: View
                     .cornerRadius(5)
                 })
                 //cancel button - need to make function dismiss the view when the button is pressed
-                
-                
-                
                 Button(action: {
                     //run a function or closure somehow
                     self.didAddUpdate("", "", self.sectionType)
